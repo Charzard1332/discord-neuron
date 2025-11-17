@@ -1,0 +1,23 @@
+{
+  "name": "discord-neuron",
+  "version": "0.1.0",
+  "description": "Neuron: an advanced, modular TypeScript framework for building powerful Discord bots.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": ["dist"],
+  "scripts": {
+    "build": "tsc -p tsconfig.build.json",
+    "clean": "rm -rf dist",
+    "prepare": "npm run build"
+  },
+  "keywords": ["discord","discord-bot","discord.js","bot","framework","neuron"],
+  "author": "Charzard1332",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.5.0",
+    "@types/node": "^20.6.0"
+  },
+  "peerDependencies": {
+    "discord.js": "^14.0.0"
+  }
+}
